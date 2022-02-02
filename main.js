@@ -3,7 +3,7 @@ function makeBoxRed(event) {
     boxClicked.style.backgroundColor = 'red'
 }
 
-var clickBox1 = document.querySelector('.box1')
+var clickBox1 = document.querySelector('div .box1')
 clickBox1.addEventListener('click', makeBoxRed)
 
 var clickBox2 = document.querySelector('.box2')

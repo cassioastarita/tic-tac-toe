@@ -3,3 +3,10 @@ div {
     height: 100px;
     width: 100px;
 }
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+}
