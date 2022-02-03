@@ -1,4 +1,4 @@
-# Mario Bross Tic Tac Toe
+# Mario Bros Tic Tac Toe
 
 Tic Tac Toe is a two players game. There will be a board of three by three table cell and two symbols in this game, one for each player. Both players can choose the symbol of their choice. Then they will mark the sign inside of a box of the board. One who got their symbol marked in a sequence of three may be vertical, horizontal, or diagonal.
 

@@ -1,12 +1,64 @@
-div {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
+@import url('http://fonts.cdnfonts.com/css/super-mario-bros-alphabet');
+
+body {
+    font-family: 'Super Mario Bros Alphabet', sans-serif;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fe81f9b1-44b9-4852-9828-078fcd451804/d2dy817-399a8680-2d0b-4578-bf91-ad4d57e583f1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZlODFmOWIxLTQ0YjktNDg1Mi05ODI4LTA3OGZjZDQ1MTgwNFwvZDJkeTgxNy0zOTlhODY4MC0yZDBiLTQ1NzgtYmY5MS1hZDRkNTdlNTgzZjEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9jd3Hc8AcCyYPYhgXebqRZjGgaov8YIpWVci2GPkNwU");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    -webkit-text-stroke: 1px black;
+    color: #e5833a;
 }
 
-.boxes {
+section {
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 306px;
-    margin: 10px auto;
+    margin: 40px auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 5px #e5833a;
+    border: 3px solid black;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 10px;
+    -webkit-text-stroke: 1px black;
+    color: #e5833a;
+}
+
+h2 {
+    font-size: 4rem;
+    margin: 10px;
+    -webkit-text-stroke: 1px black;
+    color: #e5833a;
+}
+
+.game-status {
+    font-size: 3rem;
+    margin: 10px;
+    -webkit-text-stroke: 1px black;
+    color: #e5833a;
+}
+
+.game-restart {
+    font-family: 'Super Mario Bros Alphabet', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    background: #04ac04;
 }
