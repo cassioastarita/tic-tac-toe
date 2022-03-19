@@ -23,10 +23,11 @@ Importance of planning to know where I wanted to arrive in the final of the proj
 -song for winner
 -player vs computer
 
-## Tech Stack
+## Technologies used
 -Javascript
 -HTML
 -CSS
+-Github
 
 <img width="489" alt="Screen Shot 2022-03-19 at 1 54 17 pm" src="https://user-images.githubusercontent.com/94272646/159104055-317e6be7-0c1a-4616-b198-764ab771fc46.png">
 
